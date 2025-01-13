@@ -16,6 +16,7 @@ repositories {
     }
 }
 
+apply plugin: 'com.android.application'
 apply plugin: com.google.firebase.crashlytics.buildtools.gradle.CrashlyticsPlugin
 android {
     buildTypes {
